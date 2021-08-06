@@ -43,6 +43,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
   min-height: 90vh;
+  margin-bottom: 0px;
+  padding-bottom: 100px;
 }
 
 .title {

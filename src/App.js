@@ -7,6 +7,9 @@ import './components/NavBar.css';
 import ItemListContainer from './components/ItemListContainer.jsx';
 import './components/ItemListContainer.css';
 import './components/NavBar.css';
+import './components/Button.css';
+import './components/ItemCount.css';
+
 
 function App() {
   return (
@@ -23,8 +26,9 @@ function App() {
 
       <img src={logo} className="App-logo" alt="logo" />
 
-      <ItemListContainer greeting="Saludos" />  
+      <ItemListContainer greeting="Saludos"/>
 
+      
       </div>
     </div>
   );
